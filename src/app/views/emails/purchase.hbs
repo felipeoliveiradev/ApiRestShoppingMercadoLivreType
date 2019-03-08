@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <strong>Olá, {{ad.author.name}}</strong>
+        <p>Você tem uma nova solicitação de compra para o anuncio <strong>{{ad.title}}</strong> - <strong>{{ad._id}}</strong></p>
+        <br>
+        <strong>{{user.name}}({{user.email}}):</strong>
+        <p>{{content}}</p>
+</body>
+
+</html>
